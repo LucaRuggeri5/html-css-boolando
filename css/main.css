@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+/* sezione header */
+
+header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #FC6901;
+}
+
+.container-header{
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    /* DEBUG */
+    /* background-color: red; */
+}
+
+.categorie {
+    font-size: 20px;
+    width: 20%;
+}
+#link-categorie {
+    text-decoration: none;
+    color: white;
+    padding-right: 5px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+#logo-boolean {
+  max-width: 25%;
+  height: auto;
+}    
+
+.icone {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: white;
+    width: 20%;
+}
+#icone-utente {
+    padding-left: 5px;
+}
