@@ -62,45 +62,77 @@ header {
 /* sezione prodotti */
 
 .container {
-    width: 1280px;
-    margin: 0 auto;
+width: 1280px;
+margin: 0 auto;
 }
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
 }
 
-.col {
-    width: calc((100% / 3) - (20px /3));
+.colonna {
+width: calc((100% / 3) - (20px /3));
 }
 
-.card {
-    text-align: center;
-    cursor: pointer;
+.prodotto {
+position: relative;
+text-align: center;
+cursor: pointer;
 }
-.card img {
+.prodotto img {
     max-width: 100%;
 }
 
 .didascalia {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
 }
 #marca {
-    font-size: 12px;
+font-size: 12px;
 }
 #abbigliamento {
-    font-weight: 500;
-    font-size: 20px;
+font-weight: 500;
+font-size: 20px;
 }
 #prezzo-attuale {
-    font-size: 16px;
-    color: red;
+font-size: 16px;
+color: red;
 }
 #prezzo-pre-sconto {
-    font-size: 16px;
-    text-decoration: line-through;
+font-size: 16px;
+text-decoration: line-through;
+}
+
+.sconto {
+background-color: red;
+font-size: 20px;
+padding: 5px;
+font-weight: bold;
+color: white;
+position: absolute;
+bottom: 130px;
+left: 0;
+}
+.green {
+background-color: green;
+font-size: 20px;
+padding: 5px;
+font-weight: bold;
+color: white;
+position: absolute;
+bottom: 130px;
+left: 60px;
+}
+.heart {
+background-color: white;
+font-size: 30px;
+padding: 5px;
+font-weight: bold;
+color: black;
+position: absolute;
+top: 5px;
+right: 0px;
 }
