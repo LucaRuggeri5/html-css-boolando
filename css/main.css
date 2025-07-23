@@ -106,26 +106,28 @@ font-size: 16px;
 text-decoration: line-through;
 }
 
+/* Label */
+
+.label {
+    position: absolute;
+    bottom: 130px;
+    left: 0;
+}
 .sconto {
-background-color: red;
-font-size: 20px;
-padding: 5px;
-font-weight: bold;
-color: white;
-position: absolute;
-bottom: 130px;
-left: 0;
+    background-color: red;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
 }
 .green {
-background-color: green;
-font-size: 20px;
-padding: 5px;
-font-weight: bold;
-color: white;
-position: absolute;
-bottom: 130px;
-left: 60px;
+    background-color: green;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
 }
+
 .heart {
 background-color: white;
 font-size: 30px;
@@ -137,8 +139,8 @@ top: 5px;
 right: 0px;
 }
 
-
 /* HOVER */
+
 .container-image {
     position: relative;
     cursor: pointer;
@@ -164,11 +166,6 @@ img {
 .container-image:hover .hover {
     display: block;
 }
-
-
-
-
-
 
 /* sezione del footer */
 
