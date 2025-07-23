@@ -80,8 +80,6 @@ width: calc((100% / 3) - (20px /3));
 
 .prodotto {
 position: relative;
-text-align: center;
-cursor: pointer;
 }
 .prodotto img {
     max-width: 100%;
@@ -141,8 +139,31 @@ right: 0px;
 
 
 /* HOVER */
+.container-image {
+    position: relative;
+    cursor: pointer;
+}
 
+img {
+    cursor: pointer;
+    position: relative;
+}
 
+.no-hover {
+    display: block;
+}
+
+.hover {
+    display: none;
+}
+
+.container-image:hover .no-hover {
+    display: none;
+}
+
+.container-image:hover .hover {
+    display: block;
+}
 
 
 
